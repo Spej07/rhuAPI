@@ -1,3 +1,76 @@
+rhu- Laravel Project
+
+Prerequisites
+Before setting up the project, ensure you have the following installed:
+•	XAMPP (includes PHP, MySQL, and Apache)
+•	Visual Studio Code (recommended code editor)
+•	Composer
+•	Node.js (>= 14.x)
+•	Git
+🚀 Key Features
+🏥 Clinic Reservation System
+•	Residents can book appointments online for consultations and medical services.
+•	Real-time availability checking for appointment slots.
+•	Email/SMS notifications for confirmed reservations (optional integration).
+•	Edit or cancel bookings before the appointment date.
+👥 Resident Management
+•	Register and manage resident profiles.
+•	View individual medical histories and past clinic visits.
+•	Secure authentication and authorization (for both residents and staff).
+💊 Medical Records
+•	Store basic diagnosis and treatment information.
+•	Attach files like prescriptions or lab results.
+•	Track recurring health issues per resident.
+
+
+
+
+1.	Clone the repository:
+     git clone https://github.com/your-username/sim.git
+               cd sim
+2.	Install PHP dependencies:
+        composer install
+3.	Create a copy of the .env.example file and rename it to .env:
+              cp .env.example .env
+4.	Generate an application key:
+        php artisan key:generate
+5.	Configure your database in the .env file:
+           DB_CONNECTION=mysql
+          DB_HOST=127.0.0.1
+         DB_PORT=3306
+         DB_DATABASE=your_database_name
+        DB_USERNAME=your_database_username
+       DB_PASSWORD=your_database_password
+
+6. Run database migrations:
+     php artisan migrate
+
+7. Start the development server:
+php artisan serve
+8. Visit http://localhost:8000 in your browser to see the application.
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
