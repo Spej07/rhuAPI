@@ -7,16 +7,20 @@ Before setting up the project, ensure you have the following installed:
 •	Composer
 •	Node.js (>= 14.x)
 •	Git
+
 🚀 Key Features
 🏥 Clinic Reservation System
 •	Residents can book appointments online for consultations and medical services.
 •	Real-time availability checking for appointment slots.
 •	Email/SMS notifications for confirmed reservations (optional integration).
 •	Edit or cancel bookings before the appointment date.
+
 👥 Resident Management
 •	Register and manage resident profiles.
 •	View individual medical histories and past clinic visits.
 •	Secure authentication and authorization (for both residents and staff).
+
+
 💊 Medical Records
 •	Store basic diagnosis and treatment information.
 •	Attach files like prescriptions or lab results.
